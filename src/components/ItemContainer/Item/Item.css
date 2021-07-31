@@ -1,0 +1,40 @@
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17%;
+    border: .5px solid #f1f1f1;
+    padding: 1rem 1rem;
+    border-top: 10px solid #3ACFD5;
+    border-bottom: 10px solid #3a4ed5;
+    border-left: 10px solid #3ACFD5;
+    border-right: 10px solid #3a4ed5;
+}
+.producto a {
+    text-decoration: none;
+}
+.producto img
+{
+    max-height: 180px;
+    border-radius: 7px;
+    border: solid 1px rgb(231, 231, 231);
+}
+.producto p {
+    max-width: 112px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Lfq4RY3G12ei41ag00N2, #g3sqksrG4EYRdhyRoY3Y, #g4h5IknJXjiZYh58SPvg,
+#rGuvnkdc0oqfvovhDYDG, #xjERNtjaGEQnHtvETLX5, #zuj9SAjVuwkveGenoW5w {
+    width: 200px;
+}
+#resta {
+    background-color: red;
+    color: white;
+}
+#suma {
+    background-color: green;
+    color: white;
+}

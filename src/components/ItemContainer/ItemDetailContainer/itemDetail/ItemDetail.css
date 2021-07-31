@@ -1,0 +1,17 @@
+.detailImg {
+    width: 200px;
+}
+.containerBotonAddCart button {
+    width: 50px;
+}
+.finalizar {
+    border-radius: 30px;
+    border: transparent;
+    background: linear-gradient(rgb(101, 230, 230), rgb(18, 18, 170));
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 50px;
+}
+.productTitle {
+    text-decoration: underline blue;
+}
