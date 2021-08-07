@@ -8,9 +8,9 @@ nav.navbar.navbar-expand-lg.containerNavBar {
     border-bottom: 1px solid #f1f1f1;
 }
 
-.containerNavBar a {
-    text-decoration: none;
+.menu a {
     color: black !important;
+    text-decoration: none;
 }
 .logo {
     width: 300px;
@@ -22,3 +22,6 @@ nav.navbar.navbar-expand-lg.containerNavBar {
     text-decoration: none;
     color: black;
 }   
+.menu-item::hover {
+    color: rgb(35, 83, 218);
+}

@@ -12,9 +12,15 @@ const NavBar = () => {
             <div className="header-line"></div>
   
           <nav className="menu">
-            <a href="#mouses" className="menu-item">Mouses</a>
-            <a href="#teclados" className="menu-item">Teclados</a>
-            <a href="#monitores" className="menu-item">Monitores</a>
+        <Link to="/mouses">
+            <a className="menu-item">Mouses</a>
+        </Link>
+        <Link to="/teclados">
+            <a className="menu-item">Teclados</a>
+        </Link>
+        <Link to="/monitores">
+            <a className="menu-item">Monitores</a>
+        </Link>
           </nav>
 
         <div className="shoppingCartContainer">
